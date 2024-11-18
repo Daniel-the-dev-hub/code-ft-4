@@ -15,6 +15,21 @@ header {
   border-bottom: 1px solid #e6e4e4;
 }
 
+#learn-more:hover {
+  border: 2px solid gray;
+  background-color: white;
+  color: gray;
+}
+
+.head-text a {
+  background-color: black;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid black;
+}
+
 .ny {
   color: gray;
 }
@@ -25,6 +40,7 @@ nav .nav-bar {
   align-items: center;
   justify-content: space-between;
   width: 40vw;
+  cursor: pointer;
 }
 
 nav .nav-bar .li-1 {
@@ -51,16 +67,10 @@ nav .nav-bar .li-1 {
   font-size: 16px;
   color: gray;
 }
-.head-text a {
-  background-color: black;
-  color: white;
-  padding: 6px 15px;
-  border-radius: 10px;
-  text-decoration: none;
-}
 
 .image-part {
-  background-image: url(./image/bg\ image.jpg),linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40));
+  background-image: url(./image/bg\ image.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   background-size: cover;
   background-blend-mode: darken;
   margin-top: 20px;
